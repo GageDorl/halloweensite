@@ -10,9 +10,9 @@ function creak(event){
     event.preventDefault();    
     const houseContainer = document.getElementsByClassName("house-container")[0];
     creakSound.play();
-    houseContainer.style.perspective="500px";
     door.style.transform="rotateY(-45deg)";
     setTimeout(function(){
+        // door.style.transform="rotateY(0deg)";
         window.location.href = "inside.html";
     },2000);
 }
