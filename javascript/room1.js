@@ -19,8 +19,8 @@ document.addEventListener('DOMContentLoaded',function(){
                 clearInterval(shaker);
                 goBack(ghoul);
                 moving=false;
-                scream.pause();
-            },3000)
+                // scream.pause();
+            },6000)
             
             ghoul.style.top=0;
             ghoul.style.right=0;
