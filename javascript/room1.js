@@ -10,16 +10,16 @@ document.addEventListener('DOMContentLoaded',function(){
             let count=0;
             grow(ghoul);
             let shaker = setInterval(shake,100,ghoul);
+            let death = document.getElementById('death');
+            let back = document.getElementById('back-button');
+            death.style.display = 'flex';
+            back.text = 'Restart';
+            back.href = 'index.html';
             setTimeout(function(){
-                let death = document.getElementById('death');
-                let back = document.getElementById('back-button');
-                death.style.display = 'flex';
                 clearInterval(shaker);
                 goBack(ghoul);
                 moving=false;
                 scream.pause();
-                back.text = 'Restart';
-                back.href = 'index.html';
             },3000)
             
             ghoul.style.top=0;
