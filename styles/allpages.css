@@ -1,3 +1,4 @@
+
 #back-button{
     position:absolute;
     bottom:0;
@@ -15,7 +16,8 @@
     display:block;
     position: relative;
     top:0;
-    width:1200px;
+    width:100%;
+    max-width:1200px;
     max-height:800px;
 }
 
@@ -24,27 +26,49 @@ body{
     margin:0;
     background-image: url(../assets/background.jpg);
     background-size: cover;
-    overflow:hidden;
 }
 
+@media (min-width: 1200px){
 .house-container{
-    transform: scale(var(--vw-scale));
-    transform-origin: center top;
+    transform-origin: center;
     position: relative;
     top:0;
     display: block;
-    margin:10px auto;
-    width: 1200px;
+    margin:auto;
+    width:100%;
+    max-width: 1200px;
+
     border-radius: 20px;
     overflow: hidden;
 }
-
-
 .overlay{
-    transform: scale(var(--vw-scale*10));
     background-color: rgba(0,0,0,.9);
     position: absolute;
     top:0;
     height:100%;
     width: 100vw;
 }
+}
+@media (max-width: 1199px){
+    .house-container{
+        transform-origin: center;
+        position: relative;
+        top:0;
+        display: block;
+        margin:auto;
+        width: 1200px;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .overlay{
+        
+        transform: scale(var(--vw-scale));
+        background-color: rgba(0,0,0,.9);
+        position: absolute;
+        top:0;
+        height:100vh;
+        width: 1200px;
+    }
+    }
+
+
