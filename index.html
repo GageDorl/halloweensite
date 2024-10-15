@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Haunted House</title>
+    <link type="text/css" rel="stylesheet" href="styles/allpages.css">
+    <link type="text/css" rel="stylesheet" href="styles/doorpage.css">
+    <script src="javascript/dooropening.js"></script>
 </head>
 <body>
-    
+    <div class="overlay"></div>
+    <div class="house-container">
+        <img id="house" src="assets/house.jpg" alt="Haunted House image">
+        <div class="door-back"></div>
+        <a id="door" href="inside.html"><img src="assets/door.png" alt="Door to haunted house"></a>
+        
+        <h1 id="enter">
+            ENTER IF YOU DARE
+            <p>(click the door)</p>
+        </h1>
+    </div>
+    <audio id="creak" src="assets/creak.mp3"></audio>
 </body>
 </html>

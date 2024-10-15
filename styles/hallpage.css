@@ -1,0 +1,71 @@
+#door1{
+	height:600px;
+	width:130px;
+	background-color: rgba(230, 120, 10, 0.372);
+	position: absolute;
+    left: 320px;
+    bottom: 0;
+    padding:0;
+    transform-origin: left;
+    transform-style: preserve-3d;
+	transform: rotateY(79deg) rotateX(355deg) rotateZ(359deg);
+    box-sizing: border-box;
+}
+
+#door2{
+    height: 600px;
+    width: 100px;
+    background-color: rgba(34, 66, 206, 0.488);
+    position: absolute;
+    right: 235px;
+    bottom: 0;
+    padding: 0;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transform: rotateY(97deg) rotateX(3deg) rotateZ(0deg);
+    box-sizing: border-box;
+}
+
+#door3{
+	height: 387px;
+    width: 240px;
+    background-color: rgba(191, 0, 0, 0.33);
+    position: absolute;
+    right: 470px;
+    bottom: 45px;
+    padding: 0;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transform: rotateY(360deg) rotateX(5deg) rotateZ(360deg);
+    box-sizing: border-box;
+}
+
+
+
+#hallway{
+    display:block;
+    position: relative;
+    top:0;
+    width:1200px;
+    
+	
+}
+
+
+.house-container{
+	perspective: 500px;
+	perspective-origin: center bottom;
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

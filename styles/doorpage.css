@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+#door{
+    position: absolute;
+    left: 363px;
+    bottom: 80px;
+    padding:0;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    box-sizing: border-box;
+    transition-duration: 2s;
+}
+
+#door:hover{
+    border: 5px solid orange;
+    bottom:75px;
+    left:358px;
+}
+
+.door-back{
+    position: absolute;
+    left: 363px;
+    bottom: 80px;
+    background-color: black;
+    width:75px;
+    height:171px;
+}
+
+#enter{
+    position: absolute;
+    top:0;
+    left:50%;
+    transform:translateX(-50%);
+    color:orange;
+    font-family: "Pirata One", system-ui;
+    text-align: center;
+}
+
+#enter p{
+    font-size: 1.2rem;
+    margin:0;
+}
+
+#house{
+    display:block;
+    position: relative;
+    top:0;
+    width:1200px;
+}
+
+.house-container{
+    perspective-origin: 100% 80%;
+    perspective:500px;
+}
