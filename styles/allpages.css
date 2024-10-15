@@ -61,8 +61,6 @@ body{
         overflow: hidden;
     }
     .overlay{
-        
-        transform: scale(var(--vw-scale));
         background-color: rgba(0,0,0,.9);
         position: absolute;
         top:0;
