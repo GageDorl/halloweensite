@@ -9,6 +9,7 @@ function creak(event){
     const creakSound = document.getElementById("creak");
     event.preventDefault();    
     const houseContainer = document.getElementsByClassName("house-container")[0];
+    creakSound.currentTime = 0;
     creakSound.play();
     door.style.transform="rotateY(-45deg)";
     setTimeout(function(){
