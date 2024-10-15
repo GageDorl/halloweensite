@@ -12,7 +12,7 @@ function creak(event){
     creakSound.play();
     door.style.transform="rotateY(-45deg)";
     setTimeout(function(){
-        // door.style.transform="rotateY(0deg)";
+        door.style.transform="rotateY(0deg)";
         window.location.href = "inside.html";
     },2000);
 }
