@@ -1,13 +1,3 @@
-#back-button{
-    position:absolute;
-    bottom:0;
-    display:block;
-    left:50%;
-    color:white;
-    text-decoration: none;
-    font-size: larger;
-}
-
 .death-background {
     position:absolute;
     top:50%;
