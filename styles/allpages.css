@@ -20,17 +20,19 @@
 }
 
 body{
+    height: 100%;
     margin:0;
     background-image: url(../assets/background.jpg);
     background-size: cover;
 }
 
 .house-container{
-
+    transform: scale(var(--vw-scale));
+    transform-origin: center top;
     position: relative;
     top:0;
     display: block;
-    margin:50px auto;
+    margin:10px auto;
     width: 1200px;
     border-radius: 20px;
     overflow: hidden;
@@ -38,9 +40,10 @@ body{
 
 
 .overlay{
+    transform: scale(var(--vw-scale*10));
     background-color: rgba(0,0,0,.9);
     position: absolute;
     top:0;
-    height:100vh;
+    height:100%;
     width: 100vw;
 }

@@ -5,6 +5,8 @@ door.addEventListener("click", function(event){
 });
 });
 
+
+
 function creak(event){
     const creakSound = document.getElementById("creak");
     event.preventDefault();    
