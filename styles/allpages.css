@@ -17,6 +17,7 @@
     position: relative;
     top:0;
     width:100%;
+    min-height: 100%;
 }
 
 body{
@@ -30,9 +31,6 @@ html{
     margin:0;
 }
 @media (min-width: 1200px){
-    #door{
-
-    }
     .house-container{
         position: absolute;
         top:0;

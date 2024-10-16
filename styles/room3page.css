@@ -1,0 +1,88 @@
+
+#bay1{
+    height: 38%;
+    width: 18%;
+    background-color: rgba(34, 66, 206, 0.1);
+    position: absolute;
+    left: 13.5%;
+    bottom: 20%;
+    padding: 0;
+    transform-origin: left bottom;
+    transform-style: preserve-3d;
+    transform:rotateY(78deg);
+    box-sizing: border-box;
+}
+
+#bay2{
+    height: 25%;
+    width: 10%;
+    background-color: rgba(34, 197, 206, 0.1);
+    position: absolute;
+    left: 33%;
+    bottom: 23%;
+    padding: 0;
+    transform-origin: left bottom;
+    transform-style: preserve-3d;
+    transform:rotateY(78deg);
+    box-sizing: border-box;
+}
+
+#bay3{
+    height: 19%;
+    width: 8%;
+    background-color: rgba(66, 206, 34, 0.1);
+    position: absolute;
+    left: 42%;
+    bottom: 24%;
+    padding: 0;
+    transform-origin: left bottom;
+    transform-style: preserve-3d;
+    transform:rotateY(78deg);
+    box-sizing: border-box;
+}
+
+#bay4{
+    height: 42%;
+    width: 11%;
+    background-color: rgba(206, 106, 34, 0.1);
+    position: absolute;
+    right: 7.5%;
+    bottom: 20%;
+    padding: 0;
+    transform-origin: right bottom;
+    transform-style: preserve-3d;
+    transform:rotateZ(355deg) rotateY(-90deg);
+    box-sizing: border-box;
+}
+#bay5{
+    height: 28%;
+    width: 8%;
+    background-color: rgba(206, 34, 34, 0.1);
+    position: absolute;
+    right: 17%;
+    bottom: 22%;
+    padding: 0;
+    transform-origin: right bottom;
+    transform-style: preserve-3d;
+    transform:rotateZ(356deg) rotateY(-90deg);
+    box-sizing: border-box;
+}
+
+.house-container{
+    perspective: 1000px;
+    perspective-origin: 60% 80%;
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+    text-align: center;
+}
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
