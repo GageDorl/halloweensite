@@ -81,11 +81,11 @@ html{
         position: relative;
         margin:auto;
         width: 100vw;
+        height:66vw;
         border-radius: 20px;
         overflow: hidden;
     }
     .overlay{
-        /* transform: scale(.5); */
         background-color: rgba(0,0,0,.9);
         position: absolute;
         top:0;
