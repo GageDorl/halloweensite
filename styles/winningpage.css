@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+#dancer{
+    position: absolute;
+    bottom:10%;
+    left: 30%;
+}
+
+#happy{
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform:translateX(-50%);
+    color:orange;
+    font-family: "Pirata One", system-ui;
+    text-align: center;
+    font-size: 4em;
+}

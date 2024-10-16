@@ -10,6 +10,7 @@
     transform-style: preserve-3d;
     box-sizing: border-box;
     transition-duration: 2s;
+    z-index:1;
 }
 #door img{
     height:100%;
@@ -17,8 +18,8 @@
 
 #door:hover{
     border: 5px solid orange;
-    left: calc(30.3% - 5px);
-    bottom: calc(9.4% + 5px);
+    left: 30.3%;
+    bottom: 9.4%;
 }
 
 .door-back{
@@ -43,6 +44,15 @@
 #enter p{
     font-size: 1.2rem;
     margin:0;
+}
+
+#enterLink{
+    position: absolute;
+    left:30.4%;
+    bottom:9.4%;
+    height: 21.375%;
+    width:6%;
+	background-color: rgba(230, 120, 10, 0.1);
 }
 
 .house-container{

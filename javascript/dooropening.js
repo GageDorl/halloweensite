@@ -15,8 +15,8 @@ function creak(event){
     creakSound.currentTime = 0;
     creakSound.play();
     door.style.transform="rotateY(-45deg)";
-    setTimeout(function(){
-        door.style.transform="rotateY(0deg)";
-        window.location.href = "inside.html";
-    },2000);
+    let enterLink = document.createElement('a');
+    enterLink.setAttribute('id','enterLink');
+    enterLink.setAttribute('href','inside.html');
+    document.getElementsByClassName('house-container')[0].appendChild(enterLink);
 }

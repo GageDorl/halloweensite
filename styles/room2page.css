@@ -1,6 +1,6 @@
 .house-container{
-	perspective: 500px;
-	perspective-origin: center bottom;
+	perspective: 400px;
+	perspective-origin: 60% 60%;
 	opacity: 1;
 	animation-name: fadeInOpacity;
 	animation-iteration-count: 1;
@@ -15,4 +15,17 @@
 	100% {
 		opacity: 1;
 	}
+}
+#door1{
+	height:40%;
+	width:5%;
+	background-color: rgba(230, 120, 10, 0.1);
+	position: absolute;
+    left: 29.6%;
+    bottom: 30%;
+    padding:0;
+    transform-origin: left;
+    transform-style: preserve-3d;
+	transform: rotateY(79deg);
+    box-sizing: border-box;
 }

@@ -1,0 +1,38 @@
+.house-container{
+    perspective: 1000px;
+    perspective-origin: 60% 80%;
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+    text-align: center;
+}
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#steelDoor{
+    height:64.5%;
+    width:15.8%;
+    position: absolute;
+    bottom:7%;
+    left:44.2%;
+    cursor:pointer;
+    transform-origin: right;
+    transition-duration: 1s;
+}
+
+#winning{
+    height:64.5%;
+    width:15.8%;
+    position: absolute;
+    bottom:7%;
+    left:44.2%;
+	background-color: rgba(230, 120, 10, 0.1);
+}

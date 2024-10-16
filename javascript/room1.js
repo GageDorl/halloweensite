@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded',function(){
             grow(ghoul);
             
             sessionStorage.setItem('key', '');
+            sessionStorage.setItem('unlocked', '');
             let shaker = setInterval(shake,100,ghoul);
             let death = document.getElementById('death');
             let back = document.getElementById('back-button');
