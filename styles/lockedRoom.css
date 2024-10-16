@@ -26,6 +26,7 @@
     cursor:pointer;
     transform-origin: right;
     transition-duration: 1s;
+    z-index: 1;
 }
 
 #winning{
