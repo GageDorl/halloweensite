@@ -47,8 +47,8 @@ function grow(ghoul){
 }
 
 function goBack(ghoul){
-    ghoul.style.top = "215px";
-    ghoul.style.right = '155px';
-    ghoul.style.height = '360px';
-    ghoul.style.width = '225px';
+    ghoul.style.top = "40.6%";
+    ghoul.style.right = '12.91%';
+    ghoul.style.height = '64%';
+    ghoul.style.width = '19%';
 }

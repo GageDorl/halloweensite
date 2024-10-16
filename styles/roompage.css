@@ -36,10 +36,10 @@
 
 #ghoul{
     position: absolute;
-    top: 215px;
-    right: 155px;
-    height: 360px;
-    width: 225px;
+    top: 40.6%;
+    right: 12.91%;
+    height: 64%;
+    width: 19%;
     transition-duration: 500ms;
     cursor: pointer;
 }

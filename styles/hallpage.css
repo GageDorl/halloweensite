@@ -1,9 +1,9 @@
 #door1{
-	height:600px;
-	width:130px;
+	height:75%;
+	width:10.83%;
 	background-color: rgba(230, 120, 10, 0.1);
 	position: absolute;
-    left: 320px;
+    left: 26.66%;
     bottom: 0;
     padding:0;
     transform-origin: left;
@@ -13,11 +13,11 @@
 }
 
 #door2{
-    height: 600px;
-    width: 100px;
+    height: 75%;
+    width: 8.33%;
     background-color: rgba(34, 66, 206, 0.1);
     position: absolute;
-    right: 235px;
+    right: 19.58%;
     bottom: 0;
     padding: 0;
     transform-origin: left;
@@ -27,12 +27,12 @@
 }
 
 #door3{
-	height: 387px;
-    width: 240px;
+	height: 48.375%;
+    width: 20%;
     background-color: rgba(191, 0, 0, 0.1);
     position: absolute;
-    right: 470px;
-    bottom: 45px;
+    right: 39.16%;
+    bottom: 3.75%;
     padding: 0;
     transform-origin: left;
     transform-style: preserve-3d;

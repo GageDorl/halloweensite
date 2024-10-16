@@ -2,28 +2,32 @@
 
 #door{
     position: absolute;
-    left: 363px;
-    bottom: 80px;
+    left:30.3%;
+    bottom:9.4%;
+    height: 21.375%;
     padding:0;
     transform-origin: left;
     transform-style: preserve-3d;
     box-sizing: border-box;
     transition-duration: 2s;
 }
+#door img{
+    height:100%;
+}
 
 #door:hover{
     border: 5px solid orange;
-    bottom:75px;
-    left:358px;
+    left: calc(30.3% - 5px);
+    bottom: calc(9.4% + 5px);
 }
 
 .door-back{
     position: absolute;
-    left: 363px;
-    bottom: 80px;
+    left:30.3%;
+    bottom:9.4%;
+    height:21.1%;
     background-color: black;
-    width:75px;
-    height:171px;
+    width:6.25%;
 }
 
 #enter{
