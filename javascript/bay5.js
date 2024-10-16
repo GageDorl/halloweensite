@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded',function(){
 function openCan(){
     let key = sessionStorage.getItem("key");
     let openCan = document.createElement('img');
-    openCan.setAttribute('src','/assets/openCan.png');
+    openCan.setAttribute('src','assets/openCan.png');
     openCan.setAttribute('id','open-can');
     document.getElementsByClassName('house-container')[0].appendChild(openCan);
     if(!key){
