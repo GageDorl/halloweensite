@@ -45,7 +45,7 @@
     height:10%;
     width:18.5%;
 	left:38%;
-    background-image: url(assets/key.svg);
+    background-image: url(../assets/key.svg);
     background-size: cover;
 	transform: rotate(30deg);
 	animation-name: fadeInOpacity;

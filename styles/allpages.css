@@ -40,7 +40,7 @@ html{
     bottom:2%;
     height:10%;
     width:18.5%;
-    background-image: url(/assets/key.svg);
+    background-image: url(../assets/key.svg);
     background-size: cover;
     background-color: rgba(0,0,0,.5);
     border:5px solid rgba(0,0,0,1);
