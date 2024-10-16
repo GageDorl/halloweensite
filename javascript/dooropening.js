@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded',function(){
+    // sessionStorage.setItem('key', true);
 const door = document.getElementById("door");
 door.addEventListener("click", function(event){
     creak(event);

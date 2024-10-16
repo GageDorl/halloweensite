@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded',function(){
             moving=true;
             let count=0;
             grow(ghoul);
+            
+            sessionStorage.setItem('key', '');
             let shaker = setInterval(shake,100,ghoul);
             let death = document.getElementById('death');
             let back = document.getElementById('back-button');
@@ -18,6 +20,7 @@ document.addEventListener('DOMContentLoaded',function(){
             setTimeout(function(){
                 clearInterval(shaker);
                 goBack(ghoul);
+                document.getElementById('key').remove();
                 moving=false;
                 // scream.pause();
             },6000)
